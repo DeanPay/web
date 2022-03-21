@@ -9,22 +9,22 @@ const Meta = ({ title, keywords, desc }) => {
       <link rel="icon" type="image/x-icon" href="/img/favicon.png"/>
 
      <meta property="og:type" content="website"/>
-     <meta property="og:url" content=""/>
+     <meta property="og:url" content="/img/Dark.png"/>
      <meta property="og:title" content={title}/>
      <meta property="og:description" content={desc}/>
      <meta property="og:image" content="/img/favicon.png"/>
 
      <meta property="twitter:card" content="summary_large_image"/>
-     <meta property="twitter:url" content=""/>
+     <meta property="twitter:url" content="/img/Dark.png"/>
      <meta property="twitter:title" content={title}/>
      <meta property="twitter:description" content={desc}/>
      <meta property="twitter:image" content=""/>
 
      <meta property="og:site_name" content="DeanPay"/>
-     <meta property="og:site" content=""/>
+     <meta property="og:site" content="https://deanpay.com"/>
      <meta property="og:title" content={title}/>
      <meta property="og:description" content={desc}/>
-     <meta property="og:image" content=""/>
+     <meta property="og:image" content="/img/Dark.png"/>
      <meta property="og:url" content="/img/favicon.png" />
       <title>{title}</title>
     </Head>
@@ -34,7 +34,7 @@ const Meta = ({ title, keywords, desc }) => {
 Meta.defaultProps = {
   title : "CPay - Buy Data and Airtime Easily!",
   keywords : "deanpay, catidean, buy, airtime",
-  desc :"Purchase mobile data and airtime easily"
+  desc :"Purchase mobile data and airtime easily with 1.5% cashback on every transaction!"
 }
 
 export default Meta
