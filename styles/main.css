@@ -12,6 +12,7 @@
 
 * {
   max-width: 100%;
+  /* border : 2px solid red; */
   box-sizing: border-box;
   font-family: Poppins, "Helvetica Neue", sans-serif;
   margin: 0;

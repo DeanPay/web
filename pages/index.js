@@ -21,16 +21,16 @@ export default function Home() {
             <div className="text-slate-500 font-medium text-xs md:text-sm my-8">
             Purchase airtime and mobile data in just a few clicks. Send money to any DeanPay wallet for free! - Sign up now to start enjoying 1.5% cashback on every purchase made on DeanPay! 😎
             </div>
-            <div className="w-full mt-8 text-sm flex flex-row justify-between space-x-4">
+            <div className="w-full mt-8 text-sm grid grid-cols-2 items-center gap-3 md:gap-8">
               <a href="https://app.deanpay.com/signup">
-                <button className="w-full flex items-center justify-center  space-x-2 bg-[#2e63c0] text-white font-medium py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-md rounded-bl-md">
+                <button className="w-full flex items-center justify-center space-x-2 bg-[#2e63c0] font-semibold text-white px-6 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-md rounded-bl-md">
                   <IoRocket />
                   <span>Get Started</span>
                 </button>
               </a>
 
               <a href="https://app.deanpay.com/login">
-                <button className="w-full flex items-center justify-center space-x-2 border-2 border-[#2e63c0] text-[#2e63c0] font-medium py-3 rounded-tr-2xl rounded-bl-2xl rounded-tl-md rounded-br-md">
+                <button className="w-full flex items-center justify-center space-x-2 border-2 border-[#2e63c0] font-semibold text-[#2e63c0] px-6 py-3 rounded-tr-2xl rounded-bl-2xl rounded-tl-md rounded-br-md">
                   <FaUser />
                   <span>Sign In</span>
                 </button>
