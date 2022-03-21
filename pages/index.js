@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Meta title="Home" />
-      
+      <Nav />
       <main className="w-[98vw] h-full mx-auto md:w-[90%] sm:mx-auto xl:mx-auto mt-24">
         <div className="w-full h-max flex md:items-center md:justify-between space-x-5">
           <div className="h-auto w-[90%] mx-auto text-[#2e63c0] leading-normal md:leading-loose text-[1.5rem] md:text-4xl font-semibold">
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Nav />
+     
       <Footer />
     </>
   );
